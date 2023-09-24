@@ -6,3 +6,5 @@ if (firstDigit > secondDigit)
     Console.WriteLine($"Наибольшая цифра числа {firstDigit}");
 else
     Console.WriteLine($"Наибольшая цифра числа {secondDigit}");
+int maxDigit = firstDigit > secondDigit ? firstDigit : secondDigit;
+Console.WriteLine($"Наибольшая цифра числа {maxDigit}");
