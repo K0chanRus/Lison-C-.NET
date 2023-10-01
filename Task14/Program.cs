@@ -12,7 +12,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 // if (numResult > 0) Console.WriteLine("Нет");
 // else Console.WriteLine("Да");
 
-int Multiple (int num)
+bool Multiple (int num)
 {
     bool multiple = (num % 7 == 0) && (num % 23 == 0);
     return multiple;
