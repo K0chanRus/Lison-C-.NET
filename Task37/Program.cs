@@ -25,6 +25,7 @@ int[] CountMultipliedPairs(int[] arr)
     // int size = 0;
     // if (arr.Length % 2 == 0) size =arr.Length / 2;
     // else size = arr.Length / 2 + 1;
+    // Тоже самое что и строка ниже.
     int size = arr.Length / 2 + arr.Length % 2;
     int[] result = new int[size];
 
