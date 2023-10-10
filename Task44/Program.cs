@@ -23,5 +23,10 @@ void PrintArray(int[] arr)
 
 Console.WriteLine("Введите число цыфр фибоначи");
 int number = Convert.ToInt32(Console.ReadLine());
+if (number <= 1)
+{
+  Console.WriteLine("Ошибка: Число меньше 1");
+  return; 
+}
 int[] result = FiboArray(number);
 PrintArray(result);
